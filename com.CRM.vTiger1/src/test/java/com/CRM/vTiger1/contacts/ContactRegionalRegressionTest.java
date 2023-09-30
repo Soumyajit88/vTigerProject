@@ -1,4 +1,4 @@
-/*
+
  package com.CRM.vTiger1.contacts;
 
 
@@ -40,4 +40,3 @@ public class ContactRegionalRegressionTest extends BaseClass {
 		Reporter.log("Patch Added");
 	}
 }
-*/
