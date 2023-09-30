@@ -33,8 +33,8 @@ public class BaseClass {
 		String Browser=util.toGetDataFromPropertyFile("browserName");
 		
 		//READ DATA FROM COMMAND LINE
-		//String Browser=System.getProperty("browserName");
-		String url=util.toGetDataFromPropertyFile("url");
+		String Browser=System.getProperty("browserName");
+		//String url=util.toGetDataFromPropertyFile("url");
 		if(Browser.equalsIgnoreCase("chrome")) {
 			driver=new ChromeDriver();		
 			}
